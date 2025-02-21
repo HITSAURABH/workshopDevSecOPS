@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AWSGoat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DVWA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Damn-vulnerable-sca" vcs="Git" />
   </component>
 </project>
