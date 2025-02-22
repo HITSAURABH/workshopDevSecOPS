@@ -15,7 +15,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.28.0
         with:
-          image-ref: 'alpine:3.15'
+          image-ref: 'ubuntu:18.04'
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
