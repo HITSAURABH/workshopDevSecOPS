@@ -15,7 +15,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.28.0
         with:
-          image-ref: 'ubuntu:18.04'
+          image-ref: 'ubuntu:latest'
           format: 'table'
           exit-code: '0'
           severity: 'CRITICAL,HIGH,LOW'
