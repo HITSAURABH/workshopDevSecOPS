@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   zap_scan:
-    permissons:
+    permissions:
       issue: write
     runs-on: ubuntu-latest
     name: Scan the webapplication
