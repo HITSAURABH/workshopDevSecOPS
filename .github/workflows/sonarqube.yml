@@ -17,3 +17,5 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v4
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+#https://hooks.slack.com/services/SDAJNF45/DS5G45RSD/uighjbbjkoahndf5S4G5515D1
