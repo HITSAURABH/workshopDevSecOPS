@@ -1,4 +1,4 @@
-name: gitleaks
+name: I am detecting token at CI
 on:
   pull_request:
   push:
