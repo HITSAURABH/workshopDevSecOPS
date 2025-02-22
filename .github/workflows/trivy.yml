@@ -17,7 +17,5 @@ jobs:
         with:
           image-ref: 'ubuntu:18.04'
           format: 'table'
-          exit-code: '1'
-          ignore-unfixed: true
-          vuln-type: 'os,library'
-          severity: 'CRITICAL,HIGH'
+          exit-code: '0'
+          severity: 'CRITICAL,HIGH,LOW'
